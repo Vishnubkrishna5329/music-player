@@ -1,0 +1,241 @@
+body {
+    background-color: #080738;
+}
+
+.navbar-customcolor {
+    background-color: #080738;
+    color: white;
+}
+
+.navbar a {
+    color: white;
+}
+
+.brand-icon {
+    font-size: 3.3rem;
+}
+
+.brand {
+    display: inline-block;
+}
+
+.brand-1 {
+    display: inline-block;
+
+}
+
+.brand-2 {
+    display: block;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.navbar-nav .nav-link {
+    letter-spacing: 1px;
+    font-size: 1rem;
+    margin-left: 50px;
+}
+
+.form {
+    position: relative;
+}
+
+.form .fa-search {
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    color: #9ca3af;
+
+}
+
+.form span {
+    position: absolute;
+    right: 17px;
+    top: 13px;
+    padding: 2px;
+}
+
+.left-pan {
+    padding-left: 7px;
+}
+
+.left-pan i {
+
+    padding-left: 10px;
+    color: grey;
+}
+
+.form-input {
+    border: none;
+    height: 42px;
+    text-indent: 33px;
+    border-radius: 1.1rem;
+    background-color: #ffffff12;
+    width: 350px;
+}
+
+
+.form-input:focus {
+
+    box-shadow: none;
+    border: none;
+}
+
+.notification {
+    margin-left: 25px;
+    font-size: 1.3rem;
+}
+
+.profile-pic {
+    margin-left: 50px;
+}
+
+.profile-pic img {
+    border-radius: 100%;
+    height: 55px;
+    width: 55px;
+}
+
+.collection{
+    margin-top: 5%;
+}
+
+.collection img{
+    height:200px;
+    width: 275px;
+    display: inline;
+}
+
+.latest-release{
+    margin-top: 5%;
+}
+
+.latest-release img{
+    height: 120px;
+    width: 120px;
+  
+}
+
+.latest-release-details-view{
+    margin-top: 17%;
+}
+
+.custom-grid .dropdown-toggle::before{
+    display: none;
+}
+
+.custom-drop{
+    text-align: end;
+}
+
+.date{
+    font-size: 15px;
+}
+
+.latest-release-img{
+    width: 75px;
+}
+
+.artist img{
+    height: 140px;
+    width: 140px;
+    padding: 5%;
+    border-radius: 50%;
+}
+
+#flyer1:hover{
+    transform: scale(1.2,1.2);
+    transition: 0.15s ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    z-index: 10;
+    position: absolute;
+}
+
+#flyer2:hover{
+    transform: scale(1.2,1.2);
+    transition: 0.15s ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    z-index: 10;
+    position: absolute;
+}
+
+#flyer3:hover{
+    transform: scale(1.2,1.2);
+    transition: 0.15s ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    position: absolute;
+}
+
+.custom-grid{
+    display: grid;
+    grid-template-columns: auto 250px 21px;
+    padding: 10px;
+}
+
+.popular-artist-section{
+    margin-top: 5%;
+}
+
+.populat-artist-grid{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    padding: 10px;
+    text-align: center;
+}
+
+.type{
+    margin-top: 5%;
+    background-color: #101642;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    padding: 10px;
+    text-align: center;    
+}
+
+.type img{
+    height: 90px;
+    width: 90px;
+    padding: 5%;
+    border-radius: 50%;
+    
+}
+
+.img1,.img2,.img3,.img4,.img5,.img6{
+    position: relative;
+}
+
+.img1 img,.img2 img ,.img3 img ,.img4 img ,.img5 img ,.img6 img  {
+    opacity: 0.55;
+}
+
+.img-text{
+    position: absolute;
+    color: white;
+    left: 40px;
+    bottom: 20px;
+    text-align: center;
+}
+
+.img4 .img-text{
+    left: 25px;
+    bottom: 20px;
+}
+
+.event-section{
+    margin-top: 3%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;    
+}
+
+.event-section img{
+    height: 165px;
+    width: 100%;
+    opacity: 0.65;
+}
+
+.party img, .electronic img, .roadtrip img{
+    position: relative;
+}
+
+
